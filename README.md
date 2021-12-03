@@ -9,3 +9,4 @@ Included in this repository is:
 - PDF of our paper
 - All of our code written in Julia (pagerank.jl)
 - Our datasets
+- Some of our results
