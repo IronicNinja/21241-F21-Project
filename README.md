@@ -1,5 +1,5 @@
 # 21241-f21
-21241 F21 (CMU) Final Project on PageRank and HITS.
+21241-f21 (CMU) Final Project on PageRank and HITS.
 
 In the current technological era, the first thing most people think of when trying to find an answer to a question they might not know is to ``google it.'' As such, the Google search engine's job is to return the most relevant information to the user after a search. Thus, in order to effectively conduct a search, it is essential that a search engine has a method to rank the importance of results (in this case webpages). Although this concept in theory is pretty simple, there are still a few defining parameters that aren't necessarily easy to rigorize when trying to tackle this issue, including those such as how do we actually assess the importance of a page? And how do we compare the importance of different pages (what makes a page more important than other pages)?
 
