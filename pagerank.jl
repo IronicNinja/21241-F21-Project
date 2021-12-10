@@ -164,17 +164,15 @@ function comparison(file)
     return authPlotArray, hubPlotArray, hitsPlotArray
 end
 
-"""
-ranks = pagerank("allen.txt", 10, 0.85, false)
+ranks = pagerank("random/100x15/i1n100f15.txt", 25, 0.85, true)
 print(ranks, "\n")
 
-authScores, hubScores = hits("allen.txt", 10, false)
+authScores, hubScores = hits("random/100x15/i1n100f15.txt", 25, true)
 print(authScores, "\n")
 print(hubScores, "\n")
 
 print("Correlation between ranks and auth scores: ", cor(ranks, authScores))
 print("\nCorrelation between ranks and hub scores: ", cor(ranks, hubScores))
-"""
 
 """
 generate_random("random/100x1", 100, 25, 1)
